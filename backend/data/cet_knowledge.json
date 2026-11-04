@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "institution": "IIT Patna Centre for Educational Technology",
+    "reference_portal": "https://cet.iitp.ac.in/",
+    "version": "1.0.0",
+    "last_synced": "2026-10-15T09:16:00Z",
+    "disclaimer": "All indexed content is derived from verified, publicly available IIT Patna CET web pages and academic ordinances. CET AI is an academic prototype and is not officially endorsed by IIT Patna."
+  },
+  "documents": [
+    {
+      "id": "doc-about-cet",
+      "page_title": "About IIT Patna Centre for Educational Technology (CET)",
+      "source_url": "https://cet.iitp.ac.in/index.php/the-institute",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "About CET",
+      "summary": "Mandate, mission, establishment in 2023 under NEP-2020 by IIT Patna Senate to disseminate quality, affordable, industry-aligned technology education.",
+      "content": "The Centre for Educational Technology (CET) at the Indian Institute of Technology Patna (IIT Patna) was created by the IIT Patna Senate to disseminate quality, affordable, and industry-demand-driven skill-based education in strict alignment with the National Education Policy 2020 (NEP-2020).\nCommencing undergraduate programs in streams of Computer Science and Business Management in July 2023, CET operates as a dedicated technology-enabled academic entity.\nThe center offers innovative pedagogy and hybrid learning models to empower students and working professionals.\nInstitutional Address: IIT Patna Campus, Bihta, Patna - 801106, Bihar, India.\nContact Email: cet_office@iitp.ac.in.\nOfficial Website: https://cet.iitp.ac.in/.",
+      "chunks": [
+        {
+          "chunk_id": "about-1",
+          "section": "Mission & Establishment",
+          "page_number": 1,
+          "text": "The Centre for Educational Technology (CET) was established by the IIT Patna Senate following the adoption of NEP-2020. The first step was marked by the commencement of undergraduate programs in Computer Science and Business Management in July 2023. CET aims to disseminate quality and industry-demand-driven education without barriers at an affordable cost.",
+          "source_url": "https://cet.iitp.ac.in/index.php/the-institute",
+          "page_title": "About IIT Patna Centre for Educational Technology (CET)"
+        },
+        {
+          "chunk_id": "about-2",
+          "section": "Campus & Contact Details",
+          "page_number": 1,
+          "text": "CET IIT Patna is located at the IIT Patna Campus, Bihta, Patna - 801106, Bihar, India. Official inquiries can be directed to the CET Office via cet_office@iitp.ac.in. Official portal: https://cet.iitp.ac.in/.",
+          "source_url": "https://cet.iitp.ac.in/index.php/the-institute",
+          "page_title": "About IIT Patna Centre for Educational Technology (CET)"
+        }
+      ]
+    },
+    {
+      "id": "doc-academic-programs",
+      "page_title": "CET Academic Programs — Undergraduate, Postgraduate & Executive Degrees",
+      "source_url": "https://cet.iitp.ac.in/",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Academic Programs",
+      "summary": "Catalog of 9+ degree programs approved by IIT Patna Senate, including BS in AICS, BS in CSDA, BBA, BBA-MBA, MTech, and MBA with GenAI.",
+      "content": "CET IIT Patna provides 9+ Senate-approved degree programs with modular pathways and flexible exit credentials compliant with NEP 2020:\n1. BS in Artificial Intelligence and Cyber Security (BS-AICS): 4-year degree focusing on deep learning, cryptography, defensive cybersecurity, and generative AI.\n2. BS in Computer Science and Data Analytics (BS-CSDA): 4-year degree focusing on big data pipelines, statistical machine learning, distributed computing, and visual analytics.\n3. Bachelor of Business Administration (BBA): 3-year program with management core.\n4. Integrated BBA-MBA: 5-year fast-track management career program.\n5. BS-MS Dual Degree in AICS / CSDA: 5-year integrated postgraduate pathway.\n6. MS in AICS / CSDA: Master of Science for technology graduates seeking advanced specialization.\n7. MBA: Master of Business Administration with industry-aligned curriculum.\n8. MBA in Generative AI & Project Management (Gen AI & PM).\n9. MTech in Artificial Intelligence & Data Science Engineering (AI & DSE / CSE).\nIntakes occur twice per year (Autumn and Spring sessions).",
+      "chunks": [
+        {
+          "chunk_id": "prog-1",
+          "section": "Undergraduate Degree Programs (BS & BBA)",
+          "page_number": 1,
+          "text": "Undergraduate programs at CET IIT Patna include: (1) BS in Artificial Intelligence and Cyber Security (AICS), (2) BS in Computer Science and Data Analytics (CSDA), and (3) Bachelor of Business Administration (BBA). The BS degrees are 4-year, 160-credit modular programs allowing certificate, diploma, and degree exits under NEP 2020.",
+          "source_url": "https://cet.iitp.ac.in/",
+          "page_title": "CET Academic Programs — Undergraduate, Postgraduate & Executive Degrees"
+        },
+        {
+          "chunk_id": "prog-2",
+          "section": "Integrated & Postgraduate Programs",
+          "page_number": 1,
+          "text": "Integrated and postgraduate programs include: 5-year Integrated BBA-MBA, 5-year BS-MS dual degree in AICS/CSDA, MS in AICS/CSDA, MBA, MBA in Generative AI & Project Management (Gen AI & PM), and MTech in AI & Data Science Engineering (AI & DSE). Programs feature two intakes per year.",
+          "source_url": "https://cet.iitp.ac.in/",
+          "page_title": "CET Academic Programs — Undergraduate, Postgraduate & Executive Degrees"
+        }
+      ]
+    },
+    {
+      "id": "doc-admission-eligibility",
+      "page_title": "CET Admission Eligibility & Entrance Test Regulations",
+      "source_url": "https://cet.iitp.ac.in/index.php/admissions/eligiblity",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Admissions",
+      "summary": "Mandatory eligibility criteria, minimum qualifying percentage (60%), approved national tests (JEE, CUET, NEET, BITSAT), international scores (SAT, BMAT), and IITP-SAT.",
+      "content": "Official Admission Eligibility Regulations at IIT Patna CET:\n1. BS in Artificial Intelligence & Cyber Security (AICS) / BS in Computer Science & Data Analytics (CSDA) / BS-MS:\n   - Educational Qualification: 10+2 (Class XII) in Science stream with minimum 60% cumulative aggregate marks.\n   - Entrance Criteria (any one of the following):\n     (a) Valid score or rank in National/State Level Entrance: JEE (Main/Advanced), NEET, CUET, BITSAT, KVPY/NTSE/INSPIRE scholarship holders, or State Engineering Entrance Examinations.\n     (b) Valid score in International Entrance Tests: US (SAT-I / SAT-II) or UK (BMAT).\n     (c) IITP-SAT online entrance test conducted by IIT Patna CET followed by virtual interview.\n   - Course Duration: 3 Years (B.Sc.), 4 Years (BS Honours), 5 Years (BS-MS) respectively with modular entry, exit, and re-entry options.\n\n2. Bachelor in Business Administration (BBA):\n   - Educational Qualification: 10+2 (any stream) with minimum 60% cumulative aggregate marks.\n   - Entrance Criteria: Valid score in National/State level entrance (JEE/CUET/etc.), international SAT, or IITP-SAT followed by virtual interview.\n   - Course Duration: 3 Years (Modular with entry, exit, and re-entry options).\n\n3. Application Mode:\n   - Official application portal: https://registrations.iitp-cep.in/.",
+      "chunks": [
+        {
+          "chunk_id": "elig-1",
+          "section": "BS AICS & BS CSDA Eligibility",
+          "page_number": 1,
+          "text": "For B.Sc. (Hons.) / B.S. / B.S-M.S. in CSDA and AICS: Eligibility requires 10+2 in Science with minimum 60% cumulative aggregate marks. Applicants must hold a valid score/rank in JEE (Main/Advanced), NEET, CUET, BITSAT, KVPY/NTSE/INSPIRE, State Entrance Examinations, US SAT-I/SAT-II, UK BMAT, OR clear the IITP-SAT entrance test followed by virtual interview.",
+          "source_url": "https://cet.iitp.ac.in/index.php/admissions/eligiblity",
+          "page_title": "CET Admission Eligibility & Entrance Test Regulations"
+        },
+        {
+          "chunk_id": "elig-2",
+          "section": "BBA Eligibility & Modular Duration",
+          "page_number": 1,
+          "text": "For Bachelor in Business Administration (BBA): Eligibility requires 10+2 with minimum 60% cumulative aggregate. Admission is via valid score in national entrance examinations (CUET/JEE), international SAT, or IITP-SAT followed by virtual interview. Duration is 3 years with modular entry, exit, and re-entry options under NEP-2020.",
+          "source_url": "https://cet.iitp.ac.in/index.php/admissions/eligiblity",
+          "page_title": "CET Admission Eligibility & Entrance Test Regulations"
+        }
+      ]
+    },
+    {
+      "id": "doc-admissions-portal",
+      "page_title": "CET Online Application Portal & Registration Procedures",
+      "source_url": "https://registrations.iitp-cep.in/",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Admissions",
+      "summary": "Official web portal for submitting online application forms, document uploads, and tracking admission status for IIT Patna CET programs.",
+      "content": "Official Online Registration Portal: https://registrations.iitp-cep.in/.\nCandidates seeking admission to CET IIT Patna undergraduate, postgraduate, and executive degree programs must apply through the central registration portal.\nApplication Procedure:\n1. Account creation using email and mobile verification.\n2. Selection of target program (BS AICS, BS CSDA, BBA, BBA-MBA, MTech, etc.).\n3. Upload of academic credentials (Class 10 mark sheet, Class 12 mark sheet, photo ID, entrance scorecard).\n4. For candidates applying without JEE/CUET scores, selection of IITP-SAT test slot.\n5. Online payment of application fee.\nAdvisory: The CET AI chatbot does NOT process admission applications or collect applicant payment details. All submissions must be performed directly at https://registrations.iitp-cep.in/.",
+      "chunks": [
+        {
+          "chunk_id": "portal-1",
+          "section": "Admissions Portal & Verification",
+          "page_number": 1,
+          "text": "The official admissions portal for IIT Patna CET is https://registrations.iitp-cep.in/. Prospective students must register online, upload academic transcripts (10th/12th mark sheets), provide qualifying entrance test details (or register for IITP-SAT), and complete verification directly on the portal.",
+          "source_url": "https://registrations.iitp-cep.in/",
+          "page_title": "CET Online Application Portal & Registration Procedures"
+        }
+      ]
+    },
+    {
+      "id": "doc-evaluation-scheme",
+      "page_title": "CET Academic Evaluation Scheme & Grading Regulations",
+      "source_url": "https://cet.iitp.ac.in/index.php/academics/evaluation-scheme",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Academics & Evaluation",
+      "summary": "Evaluation structure: continuous internal assessment (class tests 20%, assignments 30%), proctored end-sem (50%), 75% attendance rule, distinction threshold, and grading scale.",
+      "content": "Official Evaluation Scheme at IIT Patna CET:\nThe evaluation scheme comprises learner-friendly continuous evaluation and hands-on practical training desirable by employers.\n1. Weightage Distribution:\n   - 20% - Class test, surprise quizzes\n   - 30% - Regular assignments and laboratory demonstrations\n   - 50% - End-semester examination (proctored)\n   In theory/ordinance frameworks, continuous internal assessment accounts for 40% (Quizzes 15%, Mid-sem 20%, Classwork 5%) and End-Semester covers 50-60%.\n2. Distinction Criteria:\n   - A student obtaining marks >= 75% or an equivalent grade would be awarded degree with distinction.\n3. Attendance Regulations:\n   - Minimum 75% verified attendance in lectures and laboratory sessions is strictly required.\n   - Students with attendance below 75% are awarded an 'XX' grade and debarred from the End-Semester Examination.\n4. Grading System:\n   - AP: 10 points (Exceptional / top 5%)\n   - AA: 10 points (Outstanding)\n   - AB: 9 points (Excellent)\n   - BB: 8 points (Very Good)\n   - BC: 7 points (Good)\n   - CC: 6 points (Fair / Average)\n   - CD: 5 points (Below Average)\n   - DD: 4 points (Marginal Pass — minimum credit-earning grade)\n   - F: 0 points (Fail — credit not earned, requires supplementary exam)\n   - XX: 0 points (Debarred due to attendance shortage < 75%)\n5. Remedial / Supplementary Examinations:\n   - Capped at grade 'CC' (Grade Point 6) maximum.",
+      "chunks": [
+        {
+          "chunk_id": "eval-1",
+          "section": "Evaluation Weightages & Distinction",
+          "page_number": 1,
+          "text": "The official CET evaluation scheme consists of: 20% class tests and surprise quizzes, 30% regular assignments and lab work, and 50% proctored end-semester examination. A student obtaining marks >= 75% or an equivalent grade is awarded their degree with distinction.",
+          "source_url": "https://cet.iitp.ac.in/index.php/academics/evaluation-scheme",
+          "page_title": "CET Academic Evaluation Scheme & Grading Regulations"
+        },
+        {
+          "chunk_id": "eval-2",
+          "section": "Attendance Rule & Grading Scale",
+          "page_number": 1,
+          "text": "Attendance requirement: Minimum 75% verified attendance is strictly enforced. Attendance below 75% results in an 'XX' grade and debarment from end-semester exams. Letter grades range from AP/AA (10 points) down to DD (4 points, lowest pass). Grade F (0 points) requires re-examination, capped at CC grade.",
+          "source_url": "https://cet.iitp.ac.in/index.php/academics/evaluation-scheme",
+          "page_title": "CET Academic Evaluation Scheme & Grading Regulations"
+        }
+      ]
+    },
+    {
+      "id": "doc-academic-calendar",
+      "page_title": "CET Academic Calendar & Semester Schedules",
+      "source_url": "https://cet.iitp.ac.in/index.php/academics/academic-calendar",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Academic Calendar",
+      "summary": "Official semester windows: UG Autumn (August to December) and UG Spring (January to June), covering registration, mid-sem, quiz, and end-sem exam periods.",
+      "content": "Official Academic Calendars at IIT Patna CET:\nThe academic year is organized into two primary semesters:\n1. Autumn Semester (UG Autumn):\n   - Duration: August to December.\n   - Key Phases: Student registration, document verification, orientation, Quiz I evaluation window, Mid-Semester examinations, Quiz II window, last day of instruction, and centrally scheduled End-Semester examinations, followed by Winter vacation.\n2. Spring Semester (UG Spring):\n   - Duration: January to June.\n   - Key Phases: Course registration in early January, commencement of classes, Spring Quiz I, Mid-Semester examinations, Technical Conclave, Spring Quiz II, End-Semester examinations, followed by Summer Term / Remedial courses / Convocation.\nDownloadable calendar schedules on CET portal:\n- UG Autumn 2024 (August 2024 – December 2024)\n- UG Spring 2025 (January 2025 – June 2025)\n- UG Autumn 2025 (August 2025 – December 2025)\n- UG Spring 2026 (January 2026 – June 2026)\n- UG Autumn 2026 (August 2026 – December 2026).\nLink: https://cet.iitp.ac.in/index.php/academics/academic-calendar.",
+      "chunks": [
+        {
+          "chunk_id": "cal-1",
+          "section": "Autumn & Spring Semester Schedules",
+          "page_number": 1,
+          "text": "The academic year is split into Autumn Semester (August – December) and Spring Semester (January – June). Schedules include registration windows, Quiz I and II assessments, Mid-Semester examinations, and final centrally proctored End-Semester examinations. Detailed PDF calendars for 2024, 2025, and 2026 are published on the portal.",
+          "source_url": "https://cet.iitp.ac.in/index.php/academics/academic-calendar",
+          "page_title": "CET Academic Calendar & Semester Schedules"
+        }
+      ]
+    },
+    {
+      "id": "doc-moodle-instructions",
+      "page_title": "IIT Patna Moodle LMS — Student Instructions & Public Access Guidelines",
+      "source_url": "https://moodle.iitp.ac.in/",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Moodle & LMS Instructions",
+      "summary": "Public usage guidance for IIT Patna Moodle LMS, login authentication notice, and explicit privacy policy confirming the assistant never collects student credentials.",
+      "content": "IIT Patna Moodle Learning Management System (LMS):\nPortal URL: https://moodle.iitp.ac.in/.\nPublic Information & Instructions:\n1. Purpose: Moodle is the official centralized e-learning portal for enrolled IIT Patna students and instructors. It hosts course syllabi, lecture slides, recorded lectures, weekly problem sets, and submission portals.\n2. Authentication: Access to individual course pages and gradebooks requires active institute roll number credentials assigned by the IIT Patna Academic Section.\n3. PUBLIC SAFETY & SECURITY NOTICE:\n   - The CET AI Chatbot does NOT crawl, store, or access private, login-protected Moodle course contents or individual student submissions.\n   - The CET AI Chatbot will NEVER request, store, or verify student passwords or credentials.\n   - Students must log in directly via the official secure URL: https://moodle.iitp.ac.in/.\n   - For password recovery or Moodle course enrollment issues, students should contact the CET Office (cet_office@iitp.ac.in) or the Computer Center helpdesk.",
+      "chunks": [
+        {
+          "chunk_id": "moodle-1",
+          "section": "Moodle Access & Security Instructions",
+          "page_number": 1,
+          "text": "IIT Patna Moodle LMS is accessed at https://moodle.iitp.ac.in/. It is the official platform for enrolled students to access lecture notes, quizzes, and assignment submissions. Important: The CET AI chatbot does not crawl login-protected Moodle content and never asks for student login credentials or passwords.",
+          "source_url": "https://moodle.iitp.ac.in/",
+          "page_title": "IIT Patna Moodle LMS — Student Instructions & Public Access Guidelines"
+        }
+      ]
+    },
+    {
+      "id": "doc-public-announcements",
+      "page_title": "CET Public Announcements, Technology Club & Placement Cell",
+      "source_url": "https://cet.iitp.ac.in/index.php/announcements/technology-club-internship-placement-cell",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Public Announcements",
+      "summary": "Public selection lists for Technology Club and Internship & Placement Cell, student training initiatives, and career development activities.",
+      "content": "Public Announcements at IIT Patna CET:\n1. Technology Club:\n   - Selected candidates list published on public portal.\n   - Facilitates student hackathons, open-source projects, and technical skill development.\n2. Internship & Placement Cell:\n   - Official cell established to connect CET students with corporate recruitment partners, industry internships, and capstone project sponsorships.\n   - Public notices of shortlisted candidates and internship timelines are posted at https://cet.iitp.ac.in/index.php/announcements/technology-club-internship-placement-cell.\n3. Public News & Media:\n   - Coverage of new course launches (including hybrid programs and NEP-compliant undergraduate degrees) available on the CET News page at https://cet.iitp.ac.in/index.php/announcements/news.",
+      "chunks": [
+        {
+          "chunk_id": "ann-1",
+          "section": "Technology Club & Placement Cell",
+          "page_number": 1,
+          "text": "CET hosts a Technology Club and a dedicated Internship & Placement Cell. Public candidate selections and announcements are available at https://cet.iitp.ac.in/index.php/announcements/technology-club-internship-placement-cell. These bodies manage industrial internships, technical workshops, and campus recruitment.",
+          "source_url": "https://cet.iitp.ac.in/index.php/announcements/technology-club-internship-placement-cell",
+          "page_title": "CET Public Announcements, Technology Club & Placement Cell"
+        }
+      ]
+    },
+    {
+      "id": "doc-aics-curriculum",
+      "page_title": "BS in Artificial Intelligence & Cyber Security (AICS) — Curriculum & Exit Credentials",
+      "source_url": "https://cet.iitp.ac.in/",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Academic Programs",
+      "summary": "160-credit 4-year degree specifications: NEP 2020 exit awards (Certificate at 40 cr, Diploma at 80 cr, BSc at 120 cr, BS Honours at 160 cr), core modules, and plagiarism regulations.",
+      "content": "BS in Artificial Intelligence and Cyber Security (AICS) Curriculum Specification:\n1. Degree Overview: 4-Year Bachelor of Science program, 160 credits total, 8 semesters.\n2. NEP 2020 Multiple Exit Pathways:\n   - Year 1 (40 Credits): Undergraduate Certificate in Computing Fundamentals.\n   - Year 2 (80 Credits): Undergraduate Diploma in AI Foundations & Defensive Scripting.\n   - Year 3 (120 Credits): Bachelor of Science (B.Sc.) in AI & Cyber Security.\n   - Year 4 (160 Credits): Bachelor of Science (Honours / Research) in AI & Cyber Security.\n3. Core Courses:\n   - Semester I: CS101 Problem Solving & Python/C (4 credits), MA101 Linear Algebra (4 credits), CY101 Foundations of InfoSec (3 credits).\n   - Semester II: CS201 Data Structures & Algorithms (4 credits), MA102 Probability & Statistics (4 credits), CS102 Computer Architecture (4 credits).\n   - Semester III: AI301 Machine Learning Foundations (4 credits), CY201 Applied Cryptography (4 credits), CS203 Operating Systems (4 credits).\n   - Semester IV: AI302 Deep Neural Networks (4 credits), CY202 Network Defense & Threat Hunting (4 credits), CS204 DBMS (4 credits).\n   - Semester VII/VIII: AI401 Generative AI & LLMs (4 credits), CY401 Cloud Security (4 credits), CS499 8-Credit Capstone Project.\n4. Laboratory Plagiarism Norm:\n   - Any programming submission showing >15% lexical or syntactic overlap via tools like MOSS is awarded zero marks and escalated to the Institute Disciplinary Committee.",
+      "chunks": [
+        {
+          "chunk_id": "aics-1",
+          "section": "NEP Exit Options & Credit Milestones",
+          "page_number": 1,
+          "text": "The BS in Artificial Intelligence and Cyber Security (AICS) is a 160-credit, 4-year program. NEP 2020 exit credentials: Year 1 (40 credits) yields Undergraduate Certificate in Computing Fundamentals; Year 2 (80 credits) yields Undergraduate Diploma in AI Foundations; Year 3 (120 credits) yields B.Sc. in AI & Cyber Security; Year 4 (160 credits) yields B.S. (Honours / Research).",
+          "source_url": "https://cet.iitp.ac.in/",
+          "page_title": "BS in Artificial Intelligence & Cyber Security (AICS) — Curriculum & Exit Credentials"
+        },
+        {
+          "chunk_id": "aics-2",
+          "section": "Coursework & Plagiarism Policy",
+          "page_number": 2,
+          "text": "Core courses in AICS include CS101 Programming, CS201 Data Structures, AI301 Machine Learning, AI302 Deep Learning, and AI401 Generative AI. Laboratory policy strictly enforces a zero-marks penalty for any code submission showing >15% lexical code overlap via automated similarity checkers.",
+          "source_url": "https://cet.iitp.ac.in/",
+          "page_title": "BS in Artificial Intelligence & Cyber Security (AICS) — Curriculum & Exit Credentials"
+        }
+      ]
+    },
+    {
+      "id": "doc-csda-curriculum",
+      "page_title": "BS in Computer Science and Data Analytics (CSDA) — Curriculum Handbook",
+      "source_url": "https://cet.iitp.ac.in/",
+      "retrieval_date": "2026-10-15T09:16:00Z",
+      "category": "Academic Programs",
+      "summary": "160-credit 4-year curriculum focusing on software architecture, big data engineering (Hadoop/Spark), statistical modeling, and data pipelines.",
+      "content": "BS in Computer Science and Data Analytics (CSDA) Curriculum Handbook:\n1. Degree Overview: 4-Year Bachelor of Science program, 160 credits, 8 semesters.\n2. Focus Areas: Dual competency in software engineering and statistical data analysis.\n3. Core Courses:\n   - MA201 Discrete Mathematical Structures (4 credits): Logic, graph theory, Eulerian paths, recurrence relations.\n   - DS201 Applied Probability & Statistical Inference (4 credits): Central Limit Theorem, hypothesis testing.\n   - MA202 Numerical Optimization (4 credits): Lagrange multipliers, gradient descent.\n   - DS301 Distributed Computing & Big Data Engineering (4 credits): Apache Spark, HDFS, Kafka streaming.\n   - CS205 Object Oriented Software Design (4 credits): SOLID principles, design patterns.\n   - DS401 Statistical Machine Learning (4 credits): Regularization, ensemble methods.\n   - DS402 Natural Language Processing & Text Mining (4 credits): Language models, BERT, text embeddings.\n4. Capstone Analytics Project: Semester VIII involves high-throughput data pipelines and predictive modeling.",
+      "chunks": [
+        {
+          "chunk_id": "csda-1",
+          "section": "CSDA Mathematical & Big Data Core",
+          "page_number": 1,
+          "text": "The BS in CSDA requires 160 credits over 4 years. Key subjects include MA201 Discrete Mathematical Structures, DS201 Applied Probability & Inference, DS301 Distributed Computing & Big Data (Spark/HDFS), and DS401 Statistical Machine Learning, concluding with a capstone analytics project in Semester VIII.",
+          "source_url": "https://cet.iitp.ac.in/",
+          "page_title": "BS in Computer Science and Data Analytics (CSDA) — Curriculum Handbook"
+        }
+      ]
+    }
+  ]
+}

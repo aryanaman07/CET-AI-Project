@@ -1,0 +1,21 @@
+{
+  "name": "cet-ai-academic-assistant",
+  "version": "1.0.0",
+  "description": "CET AI - AI-Powered Academic Learning and Research Assistant for IIT Patna Centre for Educational Technology",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview"
+  },
+  "keywords": [
+    "iit-patna",
+    "cet",
+    "learning-assistant",
+    "study-companion",
+    "rag",
+    "capstone"
+  ],
+  "author": "CET AI Capstone Team - IIT Patna",
+  "license": "MIT"
+}

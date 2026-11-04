@@ -1,0 +1,437 @@
+/* ==========================================================================
+   CET AI — IIT PATNA CENTRE FOR EDUCATIONAL TECHNOLOGY
+   Design System & Global Stylesheet
+   ========================================================================== */
+
+:root {
+  /* Brand Identity: Official IIT Patna Navy & Gold */
+  --iitp-navy-950: #000c1c;
+  --iitp-navy-900: #001733;
+  --iitp-navy-800: #002147; /* Primary Brand */
+  --iitp-navy-700: #003366;
+  --iitp-navy-600: #0a4687;
+  --iitp-navy-500: #1a5ca6;
+  --iitp-navy-100: #e8f1fc;
+  --iitp-navy-50:  #f0f6ff;
+
+  --iitp-gold-600: #a8851c;
+  --iitp-gold-500: #d4af37; /* Primary Gold Accent */
+  --iitp-gold-400: #e5c358;
+  --iitp-gold-300: #f4d87e;
+  --iitp-gold-100: #fff9e6;
+  --iitp-gold-50:  #fffdf7;
+
+  /* Neutrals & Surfaces */
+  --bg-canvas: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #ffffff;
+  --bg-subtle: #f1f5f9;
+  --border-subtle: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-focus: #d4af37;
+
+  /* Typography Colors */
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --text-inverse: #ffffff;
+  --text-gold: #b38e21;
+
+  /* State Colors */
+  --success-bg: #ecfdf5;
+  --success-border: #a7f3d0;
+  --success-text: #065f46;
+  --success-accent: #10b981;
+
+  --error-bg: #fef2f2;
+  --error-border: #fecaca;
+  --error-text: #991b1b;
+  --error-accent: #ef4444;
+
+  --warning-bg: #fffbeb;
+  --warning-border: #fde68a;
+  --warning-text: #92400e;
+  --warning-accent: #f59e0b;
+
+  --info-bg: #eff6ff;
+  --info-border: #bfdbfe;
+  --info-text: #1e40af;
+  --info-accent: #3b82f6;
+
+  /* Font Families */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 33, 71, 0.07), 0 2px 4px -2px rgba(0, 33, 71, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 33, 71, 0.09), 0 4px 6px -4px rgba(0, 33, 71, 0.06);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 33, 71, 0.12), 0 8px 10px -6px rgba(0, 33, 71, 0.08);
+  --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.28);
+  --shadow-navy: 0 8px 30px rgba(0, 33, 71, 0.2);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --navbar-height: 72px;
+  --max-content-width: 1400px;
+}
+
+/* Base Reset & Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--iitp-navy-900);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+a {
+  color: var(--iitp-navy-700);
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+a:hover {
+  color: var(--iitp-gold-600);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 0.925rem;
+  border-radius: var(--radius-md);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--iitp-navy-800) 0%, var(--iitp-navy-900) 100%);
+  color: #ffffff;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 33, 71, 0.18);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, var(--iitp-navy-700) 0%, var(--iitp-navy-800) 100%);
+  border-color: var(--iitp-gold-500);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 33, 71, 0.25);
+  color: #ffffff;
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, var(--iitp-gold-400) 0%, var(--iitp-gold-500) 100%);
+  color: var(--iitp-navy-950);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: var(--shadow-gold);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, var(--iitp-gold-300) 0%, var(--iitp-gold-400) 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(212, 175, 55, 0.45);
+}
+
+.btn-secondary {
+  background: var(--bg-surface);
+  color: var(--iitp-navy-800);
+  border: 1px solid var(--border-medium);
+}
+
+.btn-secondary:hover {
+  background: var(--bg-subtle);
+  border-color: var(--iitp-navy-700);
+  transform: translateY(-1px);
+}
+
+.btn-outline-gold {
+  background: transparent;
+  color: var(--iitp-gold-600);
+  border: 1.5px solid var(--iitp-gold-500);
+}
+
+.btn-outline-gold:hover {
+  background: var(--iitp-gold-50);
+  color: var(--iitp-navy-900);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+}
+
+.btn-ghost:hover {
+  background: rgba(0, 33, 71, 0.05);
+  color: var(--iitp-navy-900);
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.825rem;
+  border-radius: var(--radius-sm);
+}
+
+.btn-lg {
+  padding: 14px 26px;
+  font-size: 1.05rem;
+  border-radius: var(--radius-lg);
+}
+
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.775rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-navy {
+  background: var(--iitp-navy-100);
+  color: var(--iitp-navy-800);
+  border: 1px solid rgba(0, 33, 71, 0.15);
+}
+
+.badge-gold {
+  background: var(--iitp-gold-100);
+  color: var(--iitp-gold-600);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+}
+
+.badge-official {
+  background: #f0fdf4;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.badge-sample {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+/* Cards & Panels */
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.card-interactive:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--iitp-gold-500);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-dark {
+  background: rgba(0, 23, 51, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  color: #ffffff;
+}
+
+/* Citations Pill */
+.citation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #eff6ff;
+  color: var(--iitp-navy-700);
+  border: 1px solid #bfdbfe;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.775rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+.citation-badge:hover {
+  background: var(--iitp-navy-800);
+  color: var(--iitp-gold-400);
+  border-color: var(--iitp-gold-500);
+  transform: translateY(-1px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-sm);
+}
+
+/* 3D Flashcard Styles */
+.flashcard-scene {
+  perspective: 1200px;
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+  margin: 0 auto;
+}
+
+.flashcard-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+  cursor: pointer;
+}
+
+.flashcard-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px;
+  box-shadow: var(--shadow-lg);
+  border: 1.5px solid var(--border-medium);
+}
+
+.flashcard-front {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  color: var(--iitp-navy-950);
+}
+
+.flashcard-back {
+  background: linear-gradient(145deg, #001f44 0%, #001226 100%);
+  color: #ffffff;
+  transform: rotateY(180deg);
+  border-color: var(--iitp-gold-500);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 33, 71, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--iitp-gold-500);
+}
+
+/* Container Utility */
+.container {
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+}

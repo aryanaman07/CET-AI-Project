@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="crestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002147"/>
+      <stop offset="100%" stop-color="#001226"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d77f"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#aa851c"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield -->
+  <path d="M32 4L10 12V32C10 46 19.5 56 32 60C44.5 56 54 46 54 32V12L32 4Z" fill="url(#crestGrad)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <!-- Open Book -->
+  <path d="M19 38C23.5 35 28 35.5 32 37.5C36 35.5 40.5 35 45 38V24C40.5 21 36 21.5 32 23.5C28 21.5 23.5 21 19 24V38Z" fill="#ffffff" fill-opacity="0.9" stroke="url(#goldGrad)" stroke-width="1.5"/>
+  <path d="M32 23.5V37.5" stroke="#002147" stroke-width="1.5"/>
+  <!-- AI Spark / Torch Flame -->
+  <path d="M32 10C34.5 13 36 15.5 35 18C34 20 32 21 32 21C32 21 30 20 29 18C28 15.5 29.5 13 32 10Z" fill="url(#goldGrad)"/>
+  <circle cx="32" cy="16" r="1.5" fill="#ffffff"/>
+</svg>
